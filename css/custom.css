@@ -11,7 +11,7 @@
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: white;
+    color: #222529;
     border: 0;
     background-color: #fed136;
     font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -23,12 +23,7 @@
     font-weight: 700;
 }
 
-#mainNav .navbar-brand.active,
-#mainNav .navbar-brand:active,
-#mainNav .navbar-brand:focus,
-#mainNav .navbar-brand:hover {
-    color: #fec503;
-}
+
 
 #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
@@ -76,7 +71,7 @@
 
 .section-team img {
     width: 180px;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 
 footer {
@@ -91,12 +86,98 @@ footer {
 }
 
 .header-text h3.byline {
-    font-weight: 100;
+    font-weight: 200;
 }
+
 .container.text-center.my-auto.header-text {
     color: white;
+    z-index: 10;
     font-family: 'Raleway', sans-serif;
 }
+
 a.contact-us-btn {
+    margin-top: 40px;
+}
+
+span.highlight-word {
+    color: white;
+    background: #111;
+    font-weight: 600;
+    padding: 0px 6px;
+    padding-bottom: 4px;
+    margin-bottom: 2px;
+}
+
+.card {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.social-icons a.fa {
+    color: #333333;
+    padding: 0px 8px;
+    font-size: 19px;
+}
+
+p.card-name {
+    text-align: left;
+    padding-left: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+p.card-text {
+    font-weight: 300;
+    text-align: justify;
+    padding: 0px 5px;
+}
+
+footer.footer {
+    color: white;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+img.footer-logo {
+    height: 35px;
+    margin-top: 25px;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+p.contact-text {
+    font-weight: 600;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+p.contact-email {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#particles-js canvas {
+    position: absolute;
+    /* width: 100%; */
+    margin-top: -40px;
+    height: 100%; 
+    /*z-index: -100;*/
+}
+
+.masthead {
+    z-index: 100;
+}
+
+#mainNav .navbar-brand:hover {
+    color: white;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+section#services {
+    background-color: #3a8ed8 !important;
+}
+
+a#services-button {
     margin-top: 40px;
 }
