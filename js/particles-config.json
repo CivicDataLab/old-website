@@ -26,7 +26,7 @@
       }
     },
     "opacity": {
-      "value": 0.3286994724774322,
+      "value": 0.67286994724774322,
       "random": false,
       "anim": {
         "enable": false,
@@ -36,7 +36,7 @@
       }
     },
     "size": {
-      "value": 2,
+      "value": 2.5,
       "random": true,
       "anim": {
         "enable": false,
@@ -82,17 +82,17 @@
     },
     "modes": {
       "grab": {
-        "distance": 400,
+        "distance": 100,
         "line_linked": {
           "opacity": 1
         }
       },
       "bubble": {
-        "distance": 400,
-        "size": 40,
+        "distance": 100,
+        "size": 50,
         "duration": 2,
         "opacity": 8,
-        "speed": 3
+        "speed": 1.4
       },
       "push": {
         "particles_nb": 4
