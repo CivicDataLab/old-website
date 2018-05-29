@@ -1,7 +1,7 @@
-.navbar {
-    font-family: 'Lato', sans-serif;
-}
 
+.navbar {
+    font-family: 'Source Sans Pro', sans-serif;
+}
 #mainNav {
     background-color: #212529;
 }
@@ -19,7 +19,7 @@
 
 #mainNav .navbar-brand {
     color: white;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
 }
 
@@ -69,6 +69,10 @@
     }
 }
 
+
+
+
+
 .section-team img {
     width: 180px;
     /*margin-bottom: 20px;*/
@@ -86,7 +90,8 @@ footer {
 }
 
 .header-text h3.byline {
-    font-weight: 200;
+    font-weight: 300;
+    font-size: 32px;
 }
 
 .container.text-center.my-auto.header-text {
@@ -112,10 +117,10 @@ span.highlight-word {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
-.social-icons a.fa {
+.card-body .social-icons a.fa {
     color: #333333;
     padding: 0px 8px;
-    font-size: 19px;
+    font-size: 23px;
 }
 
 p.card-name {
@@ -135,7 +140,7 @@ p.card-text {
 footer.footer {
     color: white;
     padding-top: 4rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 img.footer-logo {
@@ -180,4 +185,49 @@ section#services {
 
 a#services-button {
     margin-top: 40px;
+}
+
+p.license-text {
+    font-weight: 100;
+        margin-top: 10px;
+}
+h5.footer-logo-byline {
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+footer .social-media-icons a i {
+    font-size: 37px;
+}
+a {
+    color: white;
+}
+a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.72);
+}
+
+@media (max-width: 992px) {
+.contact-info {
+    text-align: center;
+}
+}
+
+@media (max-width: 772px) {
+.contact-info {
+    text-align: center;
+}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 560px) {
+.header-text h3.byline {
+    font-size: 21px;
+}
+@media only screen and (min-device-width : 575px) and (max-device-width : 768px) {
+.header-text h3.byline {
+    font-size: 28px;
+}
+h1.mb-1.logo {
+    font-size: 36px;
+}
 }

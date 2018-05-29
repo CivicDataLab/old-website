@@ -96,7 +96,6 @@ h6 {
 }
 
 .masthead h1 {
-  font-size: 4rem;
   margin: 0;
   padding: 0;
 }
@@ -106,7 +105,7 @@ h6 {
     height: 100vh;
   }
   .masthead h1 {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
   }
 }
 
@@ -337,14 +336,17 @@ a:hover, a:focus, a:active {
 }
 
 .btn-secondary {
-  background-color: #ecb807 !important;
-  border-color: #ecb807 !important;
-  color: #fff !important;
+  color: #333;
+    text-shadow: none;
+    background-color: #fff;
+    border: .05rem solid #fff;
 }
 
-.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #ba9106 !important;
-  border-color: #ba9106 !important;
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active , .btn-secondary:not(:disabled):not(.disabled):active{
+  background-color: #fff !important;
+  border-color: transparent; !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  color:#333;
 }
 
 .btn-dark {
