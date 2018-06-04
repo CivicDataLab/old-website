@@ -173,6 +173,7 @@ p.contact-email {
 
 .masthead {
     z-index: 100;
+    overflow-y:hidden;
 }
 
 #mainNav .navbar-brand:hover {
