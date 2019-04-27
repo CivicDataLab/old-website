@@ -13,7 +13,7 @@ output:
 
 [![](../../img/cdl_header.png)](https://www.civicdatalab.in/)
 
-```{r echo=FALSE}
+```{r eval=FALSE, include=FALSE}
 headR::add_twitter_card(
   card_type = "summary_large_image",
   title = "What we value at CivicDataLab",
