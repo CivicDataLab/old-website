@@ -5,10 +5,11 @@ output:
   prettydoc::html_pretty:
     theme: tactile
     highlight: github
-  includes:
+    includes:
       in_header: 
-        - include/twitter_card.html
+        - ../../include/twitter_card.html
 ---
+
 
 [![](../../img/cdl_header.png)](https://www.civicdatalab.in/)
 
