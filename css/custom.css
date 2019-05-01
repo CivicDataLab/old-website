@@ -131,6 +131,10 @@ p.card-name {
     margin-bottom: 5px;
 }
 
+html body#page-top section#values.content-section.section-values {
+    padding-top:0;
+}
+
 p.card-text {
     font-weight: 300;
     text-align: justify;
@@ -167,7 +171,7 @@ p.contact-email {
     position: absolute;
     /* width: 100%; */
     margin-top: -40px;
-    height: 100%; 
+    height: 100%;
     /*z-index: -100;*/
 }
 
