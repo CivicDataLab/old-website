@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+  {% include nav.html %}
+
+  <div class="container content">
+
+    <!-- Loop of all the posts -->
+    <div class="posts">
+      {% for post in paginator.posts %}
+      <article class="post">
+        <h2 class="post-title">
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h2>
+        {{ post.excerpt }}
+        <!-- <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time> -->
+      </article>
+      {% endfor %}
+    </div>
+
+    <!-- Pagination -->
+    <div class="pagination">
+      {% if paginator.next_page %}
+        <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+      {% else %}
+        <span class="pagination-item older">Older</span>
+      {% endif %}
+      {% if paginator.previous_page %}
+        <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+      {% else %}
+        <span class="pagination-item newer">Newer</span>
+      {% endif %}
+    </div>
+
+  </div><!-- /.content /.container -->
+
+  {% include footer.html %}
+  {% include scripts.html %}
+</body>
+</html>
