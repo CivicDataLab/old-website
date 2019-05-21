@@ -7,20 +7,24 @@
   <body>
     {% include nav.html %}
 
-    <div class="container content">
-      <main>
-        <article class="post">
-          <h1 class="post-title"><a href="{{ site.baseurl }}/" title="Home">{{ page.title }}</a></h1>
-          <i>{{ post.excerpt }}</i>
-          <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
-          {{ content }}
-        </article>
+    <section class="content-section bg-light">
+      <div class="container">
+        <div class="row">
+          <main>
+            <article class="post">
+              <h1 class="post-title"><a href="{{ site.baseurl }}/" title="Home">{{ page.title }}</a></h1>
+              <i>{{ post.excerpt }}</i>
+              <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
+              {{ content }}
+            </article>
 
-        {% if page.comments %}
-          {% include comments.html %}
-        {% endif %}
-      </main>
-    </div>
+            {% if page.comments %}
+              {% include comments.html %}
+            {% endif %}
+          </main>
+        </div>
+      </div>
+    </section>
     
     {% include footer.html %}
   </body>
