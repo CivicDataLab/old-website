@@ -1,0 +1,24 @@
+source: .
+destination:        ./_site
+includes:           ./_includes
+highlight:           pygments
+
+# Setup
+title:               CivicDataLab
+tagline:             Data|Tech|Design|Social Science
+url:                 https://civicdatalab.in
+baseurl:             ""
+
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# plugins:             [jekyll-paginate]
+# paginate:            10
+
+
+# This is the list of pages to include in the header of the website.
+pages_list:       
+  About:             '/about'
+  Values:            '/values'
