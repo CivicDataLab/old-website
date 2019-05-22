@@ -22,7 +22,27 @@ sass:
   style:            :compressed
 
 # This is the list of pages to include in the header of the website.
-pages_list:       
-  About:             '/about'
-  Values:            '/values'
-  Articles:          '/articles'
+# pages_list:       
+#   About:             '/about'
+#   Values:            '/values'
+#   Articles:          '/articles'
+#   Team:              '/team'
+
+
+pages_list:
+  - title: About
+    subpages:
+      - page: Values
+        url: /values
+      - page: The Organisation
+        url: /about
+      - page: Team
+        url: /team
+  - title: Blog
+    url: /articles
+  - title: Work
+    subpages:
+      - page: Projects
+        url: /projects
+      - page: Case Studies
+        url: /case-studies
