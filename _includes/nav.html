@@ -6,7 +6,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="/about">About</a>
         </li>
         <li class="nav-item">
@@ -17,7 +17,19 @@
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-        </li>
+        </li> -->
+
+        {% for pl in site.pages_list %}
+          {% if pl[0] == page.title %}
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="{{ pl[1] | prepend: site.baseurl }}">{{ pl[0] }}</a>
+            </li>
+          {% else %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ pl[1] | prepend: site.baseurl }}">{{ pl[0] }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
       </ul>
     </div>
   </div>

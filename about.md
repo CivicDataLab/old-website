@@ -3,9 +3,9 @@ layout: page
 title: About
 ---
 
-<p>
+# About CivicDataLab
 
-This is about about CivicDataLab
+<p>This is about about CivicDataLab
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

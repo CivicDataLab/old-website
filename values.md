@@ -1,6 +1,10 @@
 ---
 layout: page
-title: About
+title: Values
+---
+
+# Humane Side of CivicDataLab
+
 ---
 
 ## Openness
