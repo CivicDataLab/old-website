@@ -38,11 +38,13 @@ pages_list:
         url: /about
       - page: Team
         url: /team
-  - title: Blog
-    url: /articles
   - title: Work
     subpages:
-      - page: Projects
-        url: /projects
-      - page: Case Studies
-        url: /case-studies
+      - page: Public Finance
+        url: /public-finance
+      - page: Judiciary
+        url: /judiciary
+      - page: Education
+        url: /education
+  - title: Blog
+    url: https://www.medium.com/civicdatalab
