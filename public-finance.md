@@ -30,7 +30,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         <h3 class="mb-0">Assam Budget Board</h3>
         <div class="mb-1 text-muted">Nov 12</div>
         <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-        <button type="button" class="btn btn-outline-primary">know more...</button>
+        <button type="button" class="btn btn-outline-primary"><a href="_pages/assam-budget-board.html">know more...</a></button>
       </div>
       <div class="col-auto d-none d-lg-block">
       </div>

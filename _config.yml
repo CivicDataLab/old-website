@@ -28,17 +28,30 @@ sass:
 #   Articles:          '/articles'
 #   Team:              '/team'
 
+defaults:
+  - scope:
+      path: ""
+      type: "members"
+    values:
+      layout: "member"
+
+collections:
+  projects:
+    output: true
+  members:
+    output: true
+
 
 pages_list:
-  - title: About
+  - title: About Us
     subpages:
-      - page: Values
-        url: /values
-      - page: The Organisation
+      - page: Organisation
         url: /about
-      - page: Team
+      - page: Our Values
+        url: /values
+      - page: Our Team
         url: /team
-  - title: Work
+  - title: Our Work
     subpages:
       - page: Public Finance
         url: /public-finance
