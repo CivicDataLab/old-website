@@ -12,18 +12,6 @@ title: About
   </div>
 </div>
 
-
-<ul>
-  {% for member in site.members %}
-    <li>
-      <h2><a href="{{ member.url }}" style="color: blue;">{{ member.full_name }}</a></h2>
-      <h3>{{ member.role }}</h3>
-      <p>{{ member.content | markdownify }}</p>
-    </li>
-  {% endfor %}
-</ul>
-
-
 <p>This is about about CivicDataLab
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

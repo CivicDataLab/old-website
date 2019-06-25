@@ -16,7 +16,7 @@ title: Team
           <img class="card-img-top fluid-img" data-src="{{ member.photo }}" alt="{{ member.full_name }} Profile Pic" style="height: 225px; width: 100%; display: block;" src="{{ member.photo }}" data-holder-rendered="true">
           <div class="card-body">
             <p class="card-name">
-              {{ member.full_name }}
+              <a href="{{ member.url }}" style="color: #212529;">{{ member.full_name }}</a>
             </p>
             <p class="card-text">{{ member.content | markdownify }}</p>
             <div class="social-icons text-center">

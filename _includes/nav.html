@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
 
       <ul class="navbar-nav ml-auto nav">
-        {% for page in site.pages_list %}
+        {% for page in site.data.navigation %}
           {% if page.subpages %}
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ page.title }}</a>

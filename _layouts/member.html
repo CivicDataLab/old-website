@@ -1,4 +1,27 @@
-<h1>{{ page.full_name }}</h1>
-<h2>{{ page.role }}</h2>
+---
+layout: default
+---
 
-{{ content }}
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+  {% include scripts.html %}
+
+  <body>
+    {% include nav.html %}
+
+    <section class="content-section bg-light">
+      <div class="container">
+        <div class="row">
+          <h1>{{ member.full_name }}</h1>
+          <h2>{{ member.role }}</h2>
+
+          {{ content }}
+        </div>
+      </div>
+    </section>
+    
+    {% include footer.html %}
+  </body>
+</html>

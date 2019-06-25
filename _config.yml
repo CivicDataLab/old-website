@@ -28,13 +28,6 @@ sass:
 #   Articles:          '/articles'
 #   Team:              '/team'
 
-defaults:
-  - scope:
-      path: ""
-      type: "members"
-    values:
-      layout: "member"
-
 collections:
   projects:
     output: true
@@ -44,22 +37,10 @@ collections:
     output: true
 
 
-pages_list:
-  - title: About Us
-    subpages:
-      - page: Organisation
-        url: /about
-      - page: Our Values
-        url: /values
-      - page: Our Team
-        url: /team
-  - title: Our Work
-    subpages:
-      - page: Public Finance
-        url: /public-finance
-      - page: Judiciary
-        url: /judiciary
-      - page: Education
-        url: /education
-  - title: Blog
-    url: https://www.medium.com/civicdatalab
+defaults:
+  -
+    scope:
+      path: "members/"
+      type: "members"
+    values:
+      layout: "member"
