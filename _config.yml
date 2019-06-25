@@ -40,6 +40,8 @@ collections:
     output: true
   members:
     output: true
+  careers:
+    output: true
 
 
 pages_list:
