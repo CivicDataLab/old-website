@@ -1,9 +1,9 @@
 ---
-title: POCSO Case Analysis, A brief
+title: POCSO Case Analysis
 sector: Judiciary
 image:
 tags: data-science, data-platform, data-analysis, dashboard
 ---
 
-<h1>{{ page.title }}</h1>
-<p>l;oreme asdfa asdfasd</p>
+
+l;oreme asdfa asdfasd
