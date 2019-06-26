@@ -56,3 +56,13 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  - scope:
+      path: ""
+      type: "case_studies"
+    values:
+      layout: "case_study"
+  - scope:
+      path: ""
+      type: "careers"
+    values:
+      layout: "career"

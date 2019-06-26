@@ -1,5 +1,4 @@
 ---
-layout: case_study
 title: POCSO Case Analysis, A brief
 sector: Judiciary
 image:
