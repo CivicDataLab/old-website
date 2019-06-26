@@ -39,6 +39,9 @@ collections:
     output: true
   careers:
     output: true
+  case_studies:
+    permalink: /:collection/:name
+    output: true
 
 
 defaults:
