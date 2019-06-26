@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Public Finance
+title: Judiciary
 ---
 
 <h1 class="h1">{{ page.title }}</h1>
@@ -32,15 +32,13 @@ title: Public Finance
 <h2 class="h2 mt-4">Case Studies</h2>
 <div class="row mt-4">
 {% for cs in site.case_studies %}
-  {% if cs.sector == page.title %}
-    <div class="card col-4">
-      <div class="card-body">
-        <h5 class="card-title">{{ cs.title }}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-        <p class="card-text">{{ cs.content | markdownify }}</p>
-        <a href="{{ cs.url }}" class="card-link text-primary">Know More</a>
-      </div>
+  <div class="card col-4">
+    <div class="card-body">
+      <h5 class="card-title">{{ cs.title }}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">{{ cs.content | markdownify }}</p>
+      <a href="{{ cs.url }}" class="card-link text-primary">Know More</a>
     </div>
-  {% endif %}
+  </div>
 {% endfor %}
 </div>
