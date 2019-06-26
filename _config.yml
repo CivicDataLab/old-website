@@ -28,8 +28,12 @@ sass:
 #   Articles:          '/articles'
 #   Team:              '/team'
 
+# all collection folders directory location
+collections_dir: all_collections
+
 collections:
   projects:
+    permalink: /:collection/:name
     output: true
   members:
     output: true
