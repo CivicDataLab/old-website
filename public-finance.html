@@ -13,7 +13,7 @@ title: Public Finance
 {% for prj in site.projects %}
   {% if prj.sector == page.title %}
     <div class="row">
-      <h3 class="h3">{{ prj.name }}</h3 class="h3">
+      <h3 class="h3">{{ prj.title }}</h3 class="h3">
       <p><a href="{{ prj.url }}" style="color: blue;">link</a></p>
       <p>{{ prj.content | markdownify }}</p>
     </div>

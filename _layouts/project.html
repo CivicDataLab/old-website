@@ -2,4 +2,16 @@
 layout: default
 ---
 
-{{ content }}
+<h2 class="h2">{{ page.title }}</h2>
+
+<ul>
+{% for prj_member in page.team %}
+  {% for member in site.members %}
+    {% if member.full_name == prj_member %}
+      <li><a href="{{ member.url }}" style="color: blue">{{ prj_member }}</a></li>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</ul>
+
+</p>{{ content }}</p>
