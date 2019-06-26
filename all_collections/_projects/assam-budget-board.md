@@ -4,6 +4,7 @@ title: Assam Budget Board
 sector: Public Finance
 image:
 tags: data-science, data-platform
+team: [Apoorv Anand, Swati Jaiswal]
 ---
 
 <h1>Assam Budget Board</h1>

@@ -36,6 +36,7 @@ collections:
     permalink: /:collection/:name
     output: true
   members:
+    permalink: /:collection/:name
     output: true
   careers:
     output: true
@@ -47,7 +48,7 @@ collections:
 defaults:
   -
     scope:
-      path: "members/"
+      path: ""
       type: "members"
     values:
       layout: "member"
