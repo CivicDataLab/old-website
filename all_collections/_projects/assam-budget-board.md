@@ -1,6 +1,9 @@
 ---
 layout: project
 title: Assam Budget Board
+sector: Public Finance
+image:
+tags: data-science, data-platform
 ---
 
 <h1>Assam Budget Board</h1>

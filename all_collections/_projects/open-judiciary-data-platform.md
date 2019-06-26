@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Open Budgets India
-sector: Public Finance
+sector: Judiciary
 ---
 
 <h1>OBI</h1>

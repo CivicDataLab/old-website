@@ -3,12 +3,6 @@ layout: page
 title: Team
 ---
 
-{% for prj in site.projects %}
-  <h2>{{ prj.name }}</h2>
-  <p><a href="{{ prj.url }}" style="color: blue;">link</a></p>
-  <p>{{ prj.content | markdownify }}</p>
-{% endfor %}
-
 <section class="content-section section-team" id="team">
   <div class="container text-center">
     <div class="content-section-heading">
