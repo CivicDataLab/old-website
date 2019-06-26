@@ -1,5 +1,4 @@
 ---
-layout: project
 title: Open Budgets India
 sector: Judiciary
 ---

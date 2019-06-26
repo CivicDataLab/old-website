@@ -46,9 +46,13 @@ collections:
 
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "members"
     values:
       layout: "member"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
