@@ -1,5 +1,27 @@
 ---
 position: Front End Engineer
+
+responsibilities:
+  - Co-create frontend tools and develop responsive UI/UX for large scale data platforms like Open Budgets India [link](https://openbudgetsindia.org/)
+  - Build open-source data visualization components to help simplify a variety of data flowing from various sectors and geographies.
+  - Collaborate with team to develop sector-specific data tools on top of our current open source data platforms.
+  - Generate various interactive data stories and case studies in collaboration with researchers and media people, to take data and insights to a wider audience.
+
+skills:
+  - Thorough knowledge of HTML, CSS3 and plain Javascript. Knowledge of ES6 would be a great addon.
+  - Data Visualisation libraries like D3, NVD3 and Vega / Vega-lite.
+  - Experience working with ReactJs.
+  - Should have an understanding of handling and manipulating data and basic querying mechanisms (SQL and alike) as well as data cleaning, data manipulation, data visualisation as well as data dashboarding.
+  - Should be familiar with Git workflow.
+  - Should be keen on open-source development.
+
+good_to_have:
+  - Prior experience working on Open Data and/or Data Visualization projects.
+  - Prior experience in working with Data/Tech communities.
+  - Collaborating with government or research-based organizations on past projects.
+
+link:
+  angel: https://angel.co/jobs/signup?slug=civicdatalab&job_listing_id=545276&source=showcase_hero&source=showcase_hero
 ---
 
-This page is to describe the Front End Engineer role at CDL
+Description of the role is to describe the Front End Engineer role at CDL

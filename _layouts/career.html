@@ -1,5 +1,43 @@
 ---
-layout: default
+layout: page
 ---
 
-{{ content }}
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="display-4">{{ page.title }}</h1>
+    <p>{{ page.content | markdownify }}</p>
+    <p><a class="btn btn-primary btn-lg" href="mailto:info@civicdatalab.in" role="button">Apply via Email</a></p>
+    {% if page.link.angel %}
+      <p><a class="btn btn-primary btn-lg" target="_blank" href="{{ page.link.angel }}" role="button">Apply via AngelList</a></p>
+    {% endif %}
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <h2 class="h2">Key Responsibilities</h2>
+    <ul>
+    {% for resp in page.responsibilities %}
+      <li>{{ resp | markdownify }}</li>  
+    {% endfor %}
+    </ul>
+  </div>
+
+  <div class="row">
+    <h2 class="h2">Desired Skills</h2>
+    <ul>
+    {% for skill in page.skills %}
+      <li>{{ skill | markdownify }}</li>  
+    {% endfor %}
+    </ul>
+  </div>
+
+  <div class="row">
+    <h2 class="h2">Good To Have</h2>
+    <ul>
+    {% for gth in page.good_to_have %}
+      <li>{{ gth | markdownify }}</li>  
+    {% endfor %}
+    </ul>
+  </div>
+</div>

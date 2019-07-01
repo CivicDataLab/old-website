@@ -6,6 +6,8 @@
       url: /values
     - page: Our Team
       url: /team
+    - page: Careers
+      url: /careers
 - title: Our Work
   subpages:
     - page: Public Finance

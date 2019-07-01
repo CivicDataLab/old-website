@@ -7,13 +7,9 @@
   <body>
     {% include nav.html %}
 
-    <section class="content-section bg-light">
-      <div class="container">
-        <div class="row">
-          {{ content }}
-        </div>
-      </div>
-    </section>
+    <div class="container-fluid">
+      {{ content }}
+    </div>
     
     {% include footer.html %}
   </body>

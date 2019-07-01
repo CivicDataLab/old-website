@@ -7,7 +7,19 @@ title: Values
   <h1> Humane Side of CivicDataLab</h1>
 </div>
 
-<div class="row">  
+<!--
+<div class="row">
+  <div class="col-md-9 align-middle">
+    <h2 class="">First  heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+  </div>
+  <div class="col-md-3">
+    <svg class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto" width="250" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+  </div>
+</div>
+-->
+
+<div class="row">
   <h2 class="mt-4">Openness</h2>
 
   <p>As Aaron Swartz popularly said, <code>A piece of knowledge, unlike a piece of physical property, can be shared by large groups of people without making anybody poorer.</code> At CivicDataLab, we exercise Openness as core to our work and encourage our partners to collaborate in Open as well. We are committed to sharing our learnings and failures to grow together. We believe that our world can become a much better place if we start thinking and working in Open.</p>
