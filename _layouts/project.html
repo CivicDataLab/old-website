@@ -135,7 +135,19 @@ layout: page
 
 <div class="row">
   <h2 class="h2">Results & Learnings</h2>
-
+</div>
+<div class="card-deck">
+{% for stat in page.statistics %}
+  <div class="card p-3 align-center col">
+    <div class="panel-item">
+      <div class="card-text">
+        <h1 class="h1"><i class="fa fa-{{ stat.icon }} float-right"></i></h1>
+        <h3 class="count pt-3 mbr-fonts-style display-2">{{ stat.stat }}</h3>
+        <h4 class="mbr-content-title mbr-light mbr-fonts-style display-5">{{ stat.name }}</h4>
+      </div>
+    </div>
+  </div>
+{% endfor %}
 </div>
 
 <!-- this is the remaining of the content

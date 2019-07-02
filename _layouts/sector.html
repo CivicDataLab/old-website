@@ -24,15 +24,20 @@ layout: page
 </div>
 
 <h2 class="h2 mt-4">Case Studies</h2>
-<div class="row mt-4">
+<div class="row">
 {% for cs in site.case_studies %}
   {% if cs.sector == page.title %}
-    <div class="card col-4">
-      <div class="card-body">
-        <h5 class="card-title">{{ cs.title }}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-        <p class="card-text">{{ cs.content | markdownify }}</p>
-        <a href="{{ cs.url }}" class="card-link text-primary">Know More</a>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ cs.title }}</h5>
+          <p class="card-text">{{ cs.content | markdownify }}</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">
+            <a href="{{ cs.url }}" class="card-link text-primary">Know More</a>
+          </small>
+        </div>
       </div>
     </div>
   {% endif %}
