@@ -17,8 +17,11 @@
               </div>
             </li>
           {% else %}
+            {% if page.title == "Blog" %}
+              {% assign trgt = "_blank" %}
+            {% endif %}
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+              <a target="{{ trgt }}" class="nav-link js-scroll-trigger" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             </li>
           {% endif %}
         {% endfor %}
