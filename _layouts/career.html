@@ -6,10 +6,15 @@ layout: page
   <div class="container">
     <h1 class="display-4">{{ page.title }}</h1>
     <p>{{ page.content | markdownify }}</p>
-    <p><a class="btn btn-primary btn-lg" href="mailto:info@civicdatalab.in" role="button">Apply via Email (info@civicdatalab.in)</a></p>
-    {% if page.link.angel %}
-      <p><a class="btn btn-primary btn-lg" target="_blank" href="{{ page.link.angel }}" role="button">Apply via AngelList</a></p>
-    {% endif %}
+    <p><strong class="mr-4">Apply Via</strong>
+      {% if page.link.angel %}
+        <a class="btn btn-primary btn-md" target="_blank" href="{{ page.link.angel }}" role="button">AngelList</a>
+      {% endif %}
+      {% if page.link.linkedin %}
+        <a class="btn btn-primary btn-md" target="_blank" href="{{ page.link.linkedin }}" role="button">LinkedIn</a>
+      {% endif %}
+      <a class="btn btn-primary btn-md" href="mailto:info@civicdatalab.in" role="button">Email (info@civicdatalab.in)</a>
+    </p>
   </div>
 </div>
 
@@ -41,6 +46,72 @@ layout: page
     </ul>
   </div>
 
+
+  <h2 class="h2">Perks & Benefits</h2>
+  <div class="space-2 space-md-3 my-5">
+    <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+      <h2 class="text-primary">Perks</h2>
+    </div>
+
+    <div class="card-deck mb-3 text-center">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Wellness</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title"> 40,000 <small class="text-muted">/ yr</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Gym membership or yoga yherapy</li>
+            <li>Learn to play a music instrument</li>
+            <li>Photography lessons</li>
+            <li>Anything for your well being</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Personal Growth & Development</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title"> 50,000 <small class="text-muted">/ yr</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Online courses</li>
+            <li>Hardware or software licenses</li>
+            <li>Summer schools</li>
+            <li>Events & conferences</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-2 space-md-3 my-5">
+    <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+      <h2 class="text-primary">Practical Assistance</h2>
+    </div>
+
+    <div class="card-deck mb-3 text-center">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Home Office Setup</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title"> 25,000 <small class="text-muted">/ yr</small></h1>
+          <p>Since you work remotely, we want to make sure your home office is comfortable. You can expense up to INR 25,000 annually to set up your home office. This includes internet services, other tech infrastructure, etc.</p>
+        </div>
+      </div>
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Coworking Space Stipend</h4>
+        </div>
+        <div class="card-body">
+          <p>CivicDataLab encourages usage of coworking spaces. Please make sure you're using a true coworking space that's meant solely for working, not a club or social space.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--
   <h2 class="h2">How To Apply</h2>
   <div class="row">
     <div class="col">
@@ -48,7 +119,6 @@ layout: page
     </div>
   </div>
 
-  <!--
   <h2 class="h2">Our Work</h2>
   <div class="row">
     <div class="col">

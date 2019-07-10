@@ -26,7 +26,8 @@ good_to_have:
   - Collaborating with government or research-based organizations on past projects.
 
 link:
-  angel: https://angel.co/jobs/signup?slug=civicdatalab&job_listing_id=545276&source=showcase_hero&source=showcase_hero
+  angel: https://angel.co/company/civicdatalab/jobs/545276-frontend-engineer
+  linkedin: https://www.linkedin.com/jobs/view/1162388214/
 ---
 
 Description of the role is to describe the Front End Engineer role at CDL
