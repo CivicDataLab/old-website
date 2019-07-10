@@ -167,6 +167,20 @@
                   {{ member.full_name }}
                 </a>
               </h5>
+              <ul class="pagination justify-content-center">
+                <li class="page-item px-2">
+                  <a target="_blank" class="fa fa-github" href="{{ member.github }}"></a>
+                </li>
+                <li class="page-item px-2">
+                  <a target="_blank" class="fa fa-twitter" href="{{ member.twitter }}"></a>
+                </li>
+                <li class="page-item px-2">
+                  <a target="_blank" class="fa fa-linkedin" href="{{ member.linkedin }}"></a>
+                </li>
+                <!-- <li class="page-item px-2">
+                  <a target="_blank" class="fa fa-medium" href="{{ member.medium }}"></a>
+                </li> -->
+              </ul>
             </div><!-- /.col -->
           {% endfor %}
           </div>
