@@ -1,0 +1,33 @@
+---
+layout: page
+---
+
+<h1>{{ page.title }}</h1>
+
+<h2>Introduction</h2>
+<p>{{ page.introduction | markdownify }}</p>
+<!-- <p>{{ content }}</p> -->
+
+
+<h2>Brief</h2>
+<p>{{ page.brief | markdownify }}</p>
+
+
+<h2>Research</h2>
+<p>{{ page.research | markdownify }}</p>
+
+
+<h2>Conclusion</h2>
+<p>{{ page.conclusions | markdownify }}</p>
+
+
+<h2>References</h2>
+<ul>
+{% for ref in page.references %}
+  <li><a href="{{ ref.link }}">{{ ref.name }}</a></li>
+{% endfor %}
+</ul>
+
+<h2>Download</h2>
+<button type="button" class="btn btn-primary btn-lg"><i class="fa fa-file-pdf-o"></i></button>
+<button type="button" class="btn btn-primary btn-lg"><i class="fa fa-database"></i></button>

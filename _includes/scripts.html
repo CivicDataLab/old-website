@@ -1,0 +1,66 @@
+<!-- Bootstrap core JavaScript -->
+<script src="/vendor/jquery/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
+<!-- Custom scripts for this template -->
+<script src="/assets/js/stylish-portfolio.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script type="text/javascript">
+
+  particlesJS.load('particles-js', 'assets/js/particles-config.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+
+</script>
+<script type="text/javascript">
+(function($) {
+  "use strict"; // Start of use strict
+
+  // Closes responsive menu when a scroll trigger link is clicked
+  $('.js-scroll-trigger').click(function() {
+    $('.navbar-collapse').collapse('hide');
+  });
+
+  // Activate scrollspy to add active class to navbar items on scroll
+  $('body').scrollspy({
+    target: '#mainNav',
+    offset: 56
+  });
+
+  // Collapse Navbar
+  var navbarCollapse = function() {
+    if ($("#mainNav").offset().top > 100) {
+      $("#mainNav").addClass("navbar-shrink");
+    } else {
+      $("#mainNav").removeClass("navbar-shrink");
+    }
+  };
+  // Collapse now if page is not at top
+  navbarCollapse();
+  // Collapse the navbar when page is scrolled
+  $(window).scroll(navbarCollapse);
+
+  // Hide navbar when modals trigger
+  $('.portfolio-modal').on('show.bs.modal', function(e) {
+    $(".navbar").addClass("d-none");
+  })
+  $('.portfolio-modal').on('hidden.bs.modal', function(e) {
+    $(".navbar").removeClass("d-none");
+  })
+
+  $('.btn-popover').popover({ container: 'body' }).css("cursor", "pointer");
+
+})(jQuery); // End of use strict
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120203184-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120203184-1');
+</script>

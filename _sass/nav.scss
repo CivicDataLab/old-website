@@ -1,0 +1,44 @@
+.navbar {
+  font-family: $font-family-primary, sans-serif;
+}
+
+
+#mainNav {
+  background-color: #212529 !important;
+
+  .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: #222529;
+    border: 0;
+    background-color: #fed136;
+    font-family: $font-family-secondary, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  .navbar-brand {
+    color: #ffffff;
+    font-family: $font-family-secondary, sans-serif;
+    font-weight: 700;
+
+    &:hover {
+      color: #ffffff;
+      text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+    }
+  }
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-family: $font-family-secondary, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #fed136;
+}

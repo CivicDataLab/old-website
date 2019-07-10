@@ -1,0 +1,36 @@
+# - title: Our Work
+#   subpages:
+#     - page: Public Finance
+#       url: /public-finance
+#     - page: Judiciary
+#       url: /judiciary
+#     - page: Education
+#       url: /education
+# - title: Our Team
+#   url: /team
+# - title: Careers
+#   url: /careers
+# - title: About Us
+#   subpages:
+#     - page: The Organisation
+#       url: /about
+#     - page: Our Values
+#       url: /values
+# - title: Blog
+#   url: https://www.medium.com/civicdatalab
+
+
+- title: About
+  url: \#about
+- title: Services
+  url: \#services
+- title: Values
+  url: \#values
+- title: Team
+  url: \#team
+- title: Careers
+  url: \#careers
+- title: Blog
+  url: https://www.medium.com/civicdatalab
+- title: Contact
+  url: \#contact

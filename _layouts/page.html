@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+  {% include scripts.html %}
+
+  <body>
+    {% include nav.html %}
+
+    <section class="content-section bg-light">
+      <div class="container">
+        {{ content }}
+      </div>
+    </section>
+    
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,0 +1,45 @@
+---
+layout: page
+---
+
+<h1 class="h1">{{ page.title }}</h1>
+<p>{{ page.description }}</p>
+
+<h2 class="h2 mt-4">Projects</h2>
+<div class="card-deck">
+  {% for prj in site.projects %}
+    {% if prj.sector == page.title %}
+      <div class="card">
+        <img src="{{ prj.image }}" class="card-img-top" alt="{{ prj.title }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ prj.title }}</h5>
+          <p class="card-text">{{ prj.background | markdownify }}</p>
+          <button type="button" class="btn btn-outline-primary float-right">
+            <a href="{{ prj.url }}" class="text-dark">know more...</a>
+          </button>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<h2 class="h2 mt-4">Case Studies</h2>
+<div class="row">
+{% for cs in site.case_studies %}
+  {% if cs.sector == page.title %}
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ cs.title }}</h5>
+          <p class="card-text">{{ cs.content | markdownify }}</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">
+            <a href="{{ cs.url }}" class="card-link text-primary">Know More</a>
+          </small>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+</div>

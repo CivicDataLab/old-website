@@ -1,0 +1,250 @@
+---
+layout: page
+title: Careers
+---
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+  </ol>
+</nav>
+
+<div class="jumbotron jumbotron-fluid p-4">
+  <h1 class="display-4">Careers</h1>
+  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<div class="row">
+  {% for career in site.careers %}
+    <div class="card col mx-3" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">{{ career.position }}</h5>
+        <p class="card-text">{{ career.content | markdownify }}</p>
+        <a class="btn btn-primary" href="{{ career.url }}" role="button">View Details</a>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="row space-2 space-md-3 my-5 bg-dark text-white p-5">
+  <div class="align-items-center text-center">
+    <div class="col">
+      <h2 class="text-primary">Our Core Values</h2>
+      <p>At front, we don't just accept difference—we celebrate it, we support it, and we thrive on it for the benefit of our employees, our products, and our community.</p>
+      <div class="row text-left">
+        <div class="col-sm-6">
+          <!-- List -->
+          <ul class="list-unstyled mb-0">
+            <li class="py-2">
+              <div class="media">
+                <span class="fa fa-heart mr-3 mt-1"></span>
+                  Openness
+              </div>
+            </li>
+            <li class="py-2">
+              <div class="media">
+                <span class="fa fa-heart mr-3 mt-1"></span>
+                  Diversity & Inclusivity
+              </div>
+            </li>
+            <li class="py-2">
+              <div class="media">
+                <span class="fa fa-heart mr-3 mt-1"></span>
+                  Feedback
+              </div>
+            </li>
+            <li class="py-2">
+              <div class="media">
+                <span class="fa fa-heart mr-3 mt-1"></span>
+                  Fun & Engaging
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-6">
+          <!-- List -->
+          <ul class="list-unstyled mb-0">
+            <li class="py-2">
+              <div class="media">
+                <span class="fa fa-heart mr-3 mt-1"></span>
+                  Experimentation & Innovation
+              </div>
+            </li>
+            <li class="py-2">
+              <div class="media">
+                <span class="fa fa-heart mr-3 mt-1"></span>
+                  Co-creation & Participation
+              </div>
+            </li>
+            <li class="py-2">
+              <div class="media">
+                <span class="fa fa-heart mr-3 mt-1"></span>
+                  Empathy & Trust
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <a href="/values" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">Know more about our values</a>
+    </div>
+  </div>
+</div>
+
+<div class="row space-2 space-md-3 my-5">
+  <!-- Title -->
+  <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+    <h2 class="text-primary">Why join us?</h2>
+    <p>The passion and commitment to that mission lives through everything we do.</p>
+  </div>
+  <!-- End Title -->
+
+  <div class="row">
+    <div class="col-sm-6 col-lg-4 mb-7">
+      <!-- Icon Blocks -->
+      <div class="media">
+        <span class="btn btn-sm btn-icon btn-soft-primary rounded-circle mr-3">
+          <span class="btn-icon__inner font-weight-semi-bold">01.</span>
+        </span>
+        <div class="media-body">
+          <h3 class="h6">Fast growing company</h3>
+          <p>We are at an inflection point to achieve accelerated.</p>
+        </div>
+      </div>
+      <!-- End Icon Blocks -->
+    </div>
+
+    <div class="col-sm-6 col-lg-4 mb-7">
+      <!-- Icon Blocks -->
+      <div class="media">
+        <span class="btn btn-sm btn-icon btn-soft-primary rounded-circle mr-3">
+          <span class="btn-icon__inner font-weight-semi-bold">02.</span>
+        </span>
+        <div class="media-body">
+          <h3 class="h6">Great Colleagues</h3>
+          <p>Closely tied and supportive team.</p>
+        </div>
+      </div>
+      <!-- End Icon Blocks -->
+    </div>
+
+    <div class="col-sm-6 col-lg-4 mb-7">
+      <!-- Icon Blocks -->
+      <div class="media">
+        <span class="btn btn-sm btn-icon btn-soft-primary rounded-circle mr-3">
+          <span class="btn-icon__inner font-weight-semi-bold">03.</span>
+        </span>
+        <div class="media-body">
+          <h3 class="h6">Take Charge</h3>
+          <p>As much as you are willing to take and show excellence.</p>
+        </div>
+      </div>
+      <!-- End Icon Blocks -->
+    </div>
+
+    <div class="col-sm-6 col-lg-4 mb-7 mb-sm-0">
+      <!-- Icon Blocks -->
+      <div class="media">
+        <span class="btn btn-sm btn-icon btn-soft-primary rounded-circle mr-3">
+          <span class="btn-icon__inner font-weight-semi-bold">04.</span>
+        </span>
+        <div class="media-body">
+          <h3 class="h6">Don't stop learning</h3>
+          <p>An atmosphere where learning is always on the to do list.</p>
+        </div>
+      </div>
+      <!-- End Icon Blocks -->
+    </div>
+
+    <div class="col-sm-6 col-lg-4 mb-7 mb-sm-0">
+      <!-- Icon Blocks -->
+      <div class="media">
+        <span class="btn btn-sm btn-icon btn-soft-primary rounded-circle mr-3">
+          <span class="btn-icon__inner font-weight-semi-bold">05.</span>
+        </span>
+        <div class="media-body">
+          <h3 class="h6">Latest technology Front</h3>
+          <p>Font Working experience of cutting edge technologies.</p>
+        </div>
+      </div>
+      <!-- End Icon Blocks -->
+    </div>
+
+    <div class="col-sm-6 col-lg-4 mb-7 mb-sm-0">
+      <!-- Icon Blocks -->
+      <div class="media">
+        <span class="btn btn-sm btn-icon btn-soft-primary rounded-circle mr-3">
+          <span class="btn-icon__inner font-weight-semi-bold">06.</span>
+        </span>
+        <div class="media-body">
+          <h3 class="h6">Cross domain exposure</h3>
+          <p>Highly passionate and cohesive team of technology and business people.</p>
+        </div>
+      </div>
+      <!-- End Icon Blocks -->
+    </div>
+  </div>
+</div>
+
+<div class="space-2 space-md-3 my-5">
+  <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+    <h2 class="text-primary">Perks</h2>
+  </div>
+
+  <div class="card-deck mb-3 text-center">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="font-weight-normal">Wellness</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title"> 40,000 <small class="text-muted">/ yr</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Gym membership or yoga yherapy</li>
+          <li>Learn to play a music instrument</li>
+          <li>Photography lessons</li>
+          <li>Anything for your well being</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Personal Growth & Development</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title"> 50,000 <small class="text-muted">/ yr</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Online courses</li>
+          <li>Hardware or software licenses</li>
+          <li>Summer schools</li>
+          <li>Events & conferences</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="space-2 space-md-3 my-5">
+  <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+    <h2 class="text-primary">Practical Assistance</h2>
+  </div>
+
+  <div class="card-deck mb-3 text-center">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="font-weight-normal">Home Office Setup</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title"> 25,000 <small class="text-muted">/ yr</small></h1>
+        <p>Since you work remotely, we want to make sure your home office is comfortable. You can expense up to INR 25,000 annually to set up your home office. This includes internet services, other tech infrastructure, etc.</p>
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Coworking Space Stipend</h4>
+      </div>
+      <div class="card-body">
+        <p>CivicDataLab encourages usage of coworking spaces. Please make sure you're using a true coworking space that's meant solely for working, not a club or social space.</p>
+      </div>
+    </div>
+  </div>
+</div>

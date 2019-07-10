@@ -1,0 +1,61 @@
+@media (max-width: 992px) {
+  .contact-info {
+    text-align: center;
+  }
+}
+
+@media (max-width: 772px) {
+  .contact-info {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 560px) {
+  .header-text h3.byline {
+    font-size: 21px;
+  }
+
+  @media only screen and (min-device-width : 575px) and (max-device-width : 768px) {
+    .header-text h3.byline {
+      font-size: 28px;
+    }
+
+    h1.mb-1.logo {
+      font-size: 36px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+  }
+
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #333;
+  }
+
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+}
