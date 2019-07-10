@@ -29,5 +29,3 @@ link:
   angel: https://angel.co/company/civicdatalab/jobs/545276-frontend-engineer
   linkedin: https://www.linkedin.com/jobs/view/1162388214/
 ---
-
-Description of the role is to describe the Front End Engineer role at CDL
