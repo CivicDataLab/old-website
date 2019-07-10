@@ -1,8 +1,8 @@
 ---
 short_name: GG
 full_name: Gaurav Godhwani
-role:
-photo: assets/img/GG.jpg
+role: CEO
+photo: /assets/img/GG.jpg
 twitter: https://twitter.com/gggodhwani
 github: https://github.com/gggodhwani
 linkedin: https://www.linkedin.com/in/gggodhwani/

@@ -2,7 +2,7 @@
 short_name: Thomson
 full_name: Thomson Muriyadan
 role: Design Researcher
-photo: assets/img/TM.jpg
+photo: /assets/img/TM.jpg
 twitter: https://twitter.com/thedigitalmonk
 github: https://github.com/thedigitalmonk
 linkedin: https://www.linkedin.com/in/thomsonmuriyadan/

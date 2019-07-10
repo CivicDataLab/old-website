@@ -1,8 +1,8 @@
 ---
 short_name: DC
 full_name: Deepthi Chand
-role:
-photo: assets/img/DC.jpg
+role: Director
+photo: /assets/img/DC.jpg
 twitter: https://twitter.com/eopoxf
 github: https://github.com/Deepthi-Chand 
 linkedin: https://www.linkedin.com/in/deepthi-chand-alagandula-5415862b/

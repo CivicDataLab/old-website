@@ -1,5 +1,6 @@
 <!-- Bootstrap core JavaScript -->
 <script src="/vendor/jquery/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- Plugin JavaScript -->
 <script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
@@ -48,6 +49,8 @@
   $('.portfolio-modal').on('hidden.bs.modal', function(e) {
     $(".navbar").removeClass("d-none");
   })
+
+  $('.btn-popover').popover({ container: 'body' }).css("cursor", "pointer");
 
 })(jQuery); // End of use strict
 </script>

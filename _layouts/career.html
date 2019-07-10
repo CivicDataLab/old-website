@@ -6,7 +6,7 @@ layout: page
   <div class="container">
     <h1 class="display-4">{{ page.title }}</h1>
     <p>{{ page.content | markdownify }}</p>
-    <p><a class="btn btn-primary btn-lg" href="mailto:info@civicdatalab.in" role="button">Apply via Email</a></p>
+    <p><a class="btn btn-primary btn-lg" href="mailto:info@civicdatalab.in" role="button">Apply via Email (info@civicdatalab.in)</a></p>
     {% if page.link.angel %}
       <p><a class="btn btn-primary btn-lg" target="_blank" href="{{ page.link.angel }}" role="button">Apply via AngelList</a></p>
     {% endif %}
@@ -14,8 +14,8 @@ layout: page
 </div>
 
 <div class="container">
+  <h2 class="h2">Key Responsibilities</h2>
   <div class="row">
-    <h2 class="h2">Key Responsibilities</h2>
     <ul>
     {% for resp in page.responsibilities %}
       <li>{{ resp | markdownify }}</li>  
@@ -23,8 +23,8 @@ layout: page
     </ul>
   </div>
 
+  <h2 class="h2">Desired Skills</h2>
   <div class="row">
-    <h2 class="h2">Desired Skills</h2>
     <ul>
     {% for skill in page.skills %}
       <li>{{ skill | markdownify }}</li>  
@@ -32,12 +32,28 @@ layout: page
     </ul>
   </div>
 
+  <h2 class="h2">Good To Have</h2>
   <div class="row">
-    <h2 class="h2">Good To Have</h2>
     <ul>
     {% for gth in page.good_to_have %}
       <li>{{ gth | markdownify }}</li>  
     {% endfor %}
     </ul>
   </div>
+
+  <h2 class="h2">How To Apply</h2>
+  <div class="row">
+    <div class="col">
+      <p>Applicants should email <a href="mailto:info@civicdatalab.in">info@civicdatalab.in</a> with their resume and an optional cover letter. Kindly ensure to provide links to your github, linkedin or any personal blog you may have.</p>
+    </div>
+  </div>
+
+  <!--
+  <h2 class="h2">Our Work</h2>
+  <div class="row">
+    <div class="col">
+      <p>You can check some of our work <a href="/projects">here.</a></p>    
+    </div>
+  </div>
+  -->
 </div>

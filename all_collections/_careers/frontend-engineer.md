@@ -1,6 +1,11 @@
 ---
 position: Front End Engineer
 
+type: Full Time
+
+brief: | 
+  We are looking for a Frontend Engineer who specializes in building engaging user interfaces and experience design for interactive data-driven platforms. With these efforts, we aim to build civic platforms that help citizens better understand various sectors like Public Finance or Judiciary and participates in decision-making.
+
 responsibilities:
   - Co-create frontend tools and develop responsive UI/UX for large scale data platforms like Open Budgets India [link](https://openbudgetsindia.org/)
   - Build open-source data visualization components to help simplify a variety of data flowing from various sectors and geographies.

@@ -1,8 +1,8 @@
 ---
 short_name: Vivek
 full_name: Vivek Shrinivasan
-role:
-photo: assets/img/VS.jpg
+role: Employee
+photo: /assets/img/VS.jpg
 twitter: https://twitter.com/kaizer1v
 github: https://github.com/kaizer1v
 linkedin: https://www.linkedin.com/in/vivek-shrinivasan/

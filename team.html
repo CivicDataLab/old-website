@@ -1,0 +1,32 @@
+---
+layout: page
+title: Team
+---
+
+<div class="container text-center">
+  <div class="jumbotron jumbotron-fluid p-4">
+    <h1 class="display-4">The Team</h1>
+    <p class="lead">The people who make it happen</p>
+  </div>
+
+  <div class="row justify-content-center">
+  {% for member in site.members %}
+    <div class="col-4 card-deck">
+      <div class="card mb-4 box-shadow">
+        <img class="card-img-top fluid-img" data-src="{{ member.photo }}" alt="{{ member.full_name }} Profile Pic" style="height: 225px; width: 100%; display: block;" src="{{ member.photo }}" data-holder-rendered="true">
+        <div class="card-body">
+          <p class="card-name">
+            <a href="{{ member.url }}" style="color: #212529;">{{ member.full_name }}</a>
+          </p>
+          <p class="card-text">{{ member.content | markdownify }}</p>
+          <div class="social-icons text-center">
+            <a href="{{ member.github }}" target="_blank" class="fa fa-github"></a>
+            <a href="{{ member.twitter }}" target="_blank" class="fa fa-twitter"></a>
+            <a href="{{ member.linkedin }}" target="_blank" class="fa fa-linkedin"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+</div>

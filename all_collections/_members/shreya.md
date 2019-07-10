@@ -1,8 +1,8 @@
 ---
 short_name: Shreya
 full_name: Shreya Agrawal
-role:
-photo: assets/img/SA.jpg
+role: Senior Developer
+photo: /assets/img/SA.jpg
 twitter: https://twitter.com/shreyabunny123
 github: https://github.com/shreyaagrawal0809
 linkedin: https://www.linkedin.com/in/shreya-agrawal-080302/

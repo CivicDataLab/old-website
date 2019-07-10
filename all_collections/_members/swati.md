@@ -1,8 +1,8 @@
 ---
 short_name: Swati
 full_name: Swati Jaiswal
-role:
-photo: assets/img/SJ.jpg
+role: Senior Developer
+photo: /assets/img/SJ.jpg
 twitter: https://twitter.com/swati12jaiswal
 github: https://github.com/curioswati
 linkedin: https://www.linkedin.com/in/curioswati/

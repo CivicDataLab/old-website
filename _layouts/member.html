@@ -2,6 +2,57 @@
 layout: page
 ---
 
-<h1 class="h1">{{ page.full_name }}</h1>
+<div class="jumbotron jumbotron-fluid p-4 text-center">
+  <div class="">
+    <img src="{{ page.photo }}" class="rounded" alt="...">
+  </div>
+  <h1 class="display-4">{{ page.full_name }}</h1>
+  <h2 class="display-5">{{ page.role }}</h2>
+  <p class="lead">{{ content | markdownify }}</p>
+  <ul class="pagination justify-content-center">
+    <li class="page-item px-2">
+      <a target="_blank" class="fa fa-github" href="{{ page.github }}"></a>
+    </li>
+    <li class="page-item px-2">
+      <a target="_blank" class="fa fa-twitter" href="{{ page.twitter }}"></a>
+    </li>
+    <li class="page-item px-2">
+      <a target="_blank" class="fa fa-linkedin" href="{{ page.linkedin }}"></a>
+    </li>
+    <li class="page-item px-2">
+      <a target="_blank" class="fa fa-medium" href="{{ page.medium }}"></a>
+    </li>
+  </ul>
+</div>
 
-{{ content }}
+<h2 class="h2 mt-4">Projects I have worked on</h2>
+<div></div>
+
+
+<h2 class="h2 mt-4">Projects I have worked on</h2>
+<div class="row">
+  {% assign works = site.projects | where_exp: "prj", "prj.team contains page.full_name" %}
+  {% for w in works %}
+    <div class="card col mx-3" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">{{ w.title }}</h5>
+        <p class="card-text">{{ w.sector | markdownify }}</p>
+        <a class="btn btn-primary" href="{{ w.url }}" role="button">View Details</a>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<h2 class="h2 mt-4">Case Studies I have worked on</h2>
+<div class="row">
+  {% assign cases = site.case_studies | where_exp: "cs", "cs.team contains page.full_name" %}
+  {% for c in cases %}
+    <div class="card col mx-3" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">{{ c.title }}</h5>
+        <p class="card-text">{{ c.sector | markdownify }}</p>
+        <a class="btn btn-primary" href="{{ c.url }}" role="button">View Details</a>
+      </div>
+    </div>
+  {% endfor %}
+</div>
