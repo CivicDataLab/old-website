@@ -32,17 +32,17 @@ sass:
 collections_dir: all_collections
 
 collections:
-  projects:
-    permalink: /:collection/:name
-    output: true
   members:
     permalink: /:collection/:name
     output: true
   careers:
     output: true
-  case_studies:
-    permalink: /:collection/:name
-    output: true
+  # projects:
+  #   permalink: /:collection/:name
+  #   output: true
+  # case_studies:
+  #   permalink: /:collection/:name
+  #   output: true
 
 
 defaults:
