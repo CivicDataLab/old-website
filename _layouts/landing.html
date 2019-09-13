@@ -193,11 +193,11 @@
     <section class="content-section section-team" id="careers">
       <div class="container text-center">
         <div class="content-section-heading">
-          <h3 class="text-secondary mb-0">We are Hiring!</h3>
+          <h3 class="text-secondary mb-0">Open for collaborations!</h3>
           <h2 class="mb-5">Opportunities at CivicDataLab</h2>
         </div>
-        <div class="row justify-content-center">
-        {% for career in site.careers %}
+      <div class="row justify-content-center">
+      <!--   {% for career in site.careers %}
           {% if site.careers.size == 1 %}
             {% assign col = 6 %}
           {% endif %}
@@ -206,10 +206,19 @@
               <h5 class="card-title">{{ career.position }}</h5>
               <p class="card-text">{{ career.brief | markdownify }}</p>
               <a class="btn btn-primary" href="{{ career.url }}" role="button">View Details</a>
-              <!-- <a class="btn btn-primary" href="/careers" role="button">Perks & Benefits</a> -->
+              <a class="btn btn-primary" href="/careers" role="button">Perks & Benefits</a>
             </div>
           </div>
-        {% endfor %}
+        {% endfor %}  -->
+          <p class="lead mb-5">
+          We often tend to find innovative ways to collaborate with people.
+          <br>
+          <span>
+            To know more about our hiring process, open positions and partnerships, please write to us at <a class=" text-blue" href="mailto:info@civicdatalab.in" target="_blank">info@civicdatalab.in
+            </a>
+          </span>
+          </p>
+
         </div>
         <!-- <a class="btn btn-primary btn-xl mt-4" href="/careers" role="button">View All Perks & Benefits</a> -->
       </div>
