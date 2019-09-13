@@ -2,7 +2,7 @@
 <html lang="en">
 
   {% include head.html %}
-  
+
   <body id="page-top">
     {% include nav.html %}
 
@@ -31,7 +31,7 @@
         </div>
       </div>
     </section>
-    
+
     <!-- Services -->
     <section class="content-section bg-primary text-white text-center" id="services">
       <div class="container">
@@ -78,7 +78,7 @@
           <h3 class="text-secondary mb-0">The Humane Side of CivicDataLab</h3>
           <h2 class="mb-5">Our Core Values</h2>
         </div>
-        
+
         <div class="align-items-center text-center">
           <div class="col">
             <p>At Front, we don't just accept difference—we celebrate it, we support it, and we thrive on it for the benefit of our employees, our products, and our community.</p>
@@ -152,7 +152,7 @@
         <div class="row">
           <div class="row my-4 text-center">
           {% for member in site.members %}
-            <div class="col-sm-12 col-lg-2 col-md-2 mx-3 px-0 text-center">
+            <div class="col-sm-12 col-lg-3 col-md-3 mx-0 px-0 text-center">
               <div class="e-team-picture" style="background-image: url('{{ member.photo }}')"></div>
               <h5 class="h5 text-center">
                 <a
@@ -177,9 +177,9 @@
                 <li class="page-item px-2">
                   <a target="_blank" class="fa fa-linkedin" href="{{ member.linkedin }}"></a>
                 </li>
-                <!-- <li class="page-item px-2">
-                  <a target="_blank" class="fa fa-medium" href="{{ member.medium }}"></a>
-                </li> -->
+                <li class="page-item px-2">
+                  <a target="_blank" class="fa fa-inbox" href="{{ member.email }}"></a>
+                </li>
               </ul>
             </div><!-- /.col -->
           {% endfor %}
@@ -193,11 +193,11 @@
     <section class="content-section section-team" id="careers">
       <div class="container text-center">
         <div class="content-section-heading">
-          <h3 class="text-secondary mb-0">We are Hiring!</h3>
+          <h3 class="text-secondary mb-0">Open for collaborations!</h3>
           <h2 class="mb-5">Opportunities at CivicDataLab</h2>
         </div>
-        <div class="row justify-content-center">
-        {% for career in site.careers %}
+      <div class="row justify-content-center">
+      <!--   {% for career in site.careers %}
           {% if site.careers.size == 1 %}
             {% assign col = 6 %}
           {% endif %}
@@ -206,10 +206,19 @@
               <h5 class="card-title">{{ career.position }}</h5>
               <p class="card-text">{{ career.brief | markdownify }}</p>
               <a class="btn btn-primary" href="{{ career.url }}" role="button">View Details</a>
-              <!-- <a class="btn btn-primary" href="/careers" role="button">Perks & Benefits</a> -->
+              <a class="btn btn-primary" href="/careers" role="button">Perks & Benefits</a>
             </div>
           </div>
-        {% endfor %}
+        {% endfor %}  -->
+          <p class="lead mb-5">
+          We often tend to find innovative ways to collaborate with people.
+          <br>
+          <span>
+            To know more about our hiring process, open positions and partnerships, please write to us at <a class=" text-blue" href="mailto:info@civicdatalab.in" target="_blank">info@civicdatalab.in
+            </a>
+          </span>
+          </p>
+
         </div>
         <!-- <a class="btn btn-primary btn-xl mt-4" href="/careers" role="button">View All Perks & Benefits</a> -->
       </div>
@@ -221,7 +230,7 @@
     <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
       <i class="fa fa-angle-up"></i>
     </a>
-    
+
     {% include scripts.html %}
   </body>
 </html>
