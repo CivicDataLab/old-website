@@ -4,7 +4,17 @@
 
 
 #mainNav {
-  background-color: #212529 !important;
+  background-color: #000 !important;
+  .logo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 2px auto 0;
+    height: 50px;
+    // width: 39px;
+    overflow: hidden;
+    display: block;
+  }
 
   .navbar-toggler {
     font-size: 12px;
@@ -16,7 +26,7 @@
     background-color: #fed136;
     font-family: $font-family-secondary, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
-  
+
   .navbar-brand {
     color: #ffffff;
     font-family: $font-family-secondary, sans-serif;
