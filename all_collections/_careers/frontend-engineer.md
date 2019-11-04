@@ -3,7 +3,7 @@ position: Front End Engineer
 
 type: Full Time
 
-brief: | 
+brief: |
   We are looking for a Frontend Engineer who specializes in building engaging user interfaces and experience design for interactive data-driven platforms. With these efforts, we aim to build civic platforms that help citizens better understand various sectors like Public Finance or Judiciary and participates in decision-making.
 
 responsibilities:
