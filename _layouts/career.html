@@ -13,6 +13,9 @@ layout: page
       {% if page.link.linkedin %}
         <a class="btn btn-primary btn-md" target="_blank" href="{{ page.link.linkedin }}" role="button">LinkedIn</a>
       {% endif %}
+      {% if page.link.hasjob %}
+        <a class="btn btn-primary btn-md" target="_blank" href="{{ page.link.hasjob }}" role="button">HasJob</a>
+      {% endif %}
       <a class="btn btn-primary btn-md" href="mailto:info@civicdatalab.in" role="button">Email (info@civicdatalab.in)</a>
     </p>
   </div>
@@ -23,7 +26,7 @@ layout: page
   <div class="row">
     <ul>
     {% for resp in page.responsibilities %}
-      <li>{{ resp | markdownify }}</li>  
+      <li>{{ resp | markdownify }}</li>
     {% endfor %}
     </ul>
   </div>
@@ -32,7 +35,7 @@ layout: page
   <div class="row">
     <ul>
     {% for skill in page.skills %}
-      <li>{{ skill | markdownify }}</li>  
+      <li>{{ skill | markdownify }}</li>
     {% endfor %}
     </ul>
   </div>
@@ -41,7 +44,7 @@ layout: page
   <div class="row">
     <ul>
     {% for gth in page.good_to_have %}
-      <li>{{ gth | markdownify }}</li>  
+      <li>{{ gth | markdownify }}</li>
     {% endfor %}
     </ul>
   </div>
@@ -122,7 +125,7 @@ layout: page
   <h2 class="h2">Our Work</h2>
   <div class="row">
     <div class="col">
-      <p>You can check some of our work <a href="/projects">here.</a></p>    
+      <p>You can check some of our work <a href="/projects">here.</a></p>
     </div>
   </div>
   -->
