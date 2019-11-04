@@ -3,10 +3,8 @@ position: Back End Engineer
 
 type: Full Time
 
-brief: | 
-  We are looking for a Backend & DevOps Developer to help support our various interventions through data platforms and tools,
-focusing from development to infrastructure management.
-These efforts will help our partner organizations increase discoverability and searchability of open-content and open-data in key social sectors like education, government finances, judiciary, etc. We strongly encourage applicants from diverse fields, sectors and cultural backgrounds. Those who have an innate sense to solve problems, adapt well to continuously changing environments. Disruptors, Ideators and Torch bearers through chaos.
+brief: |
+ We are looking for a Backend & DevOps Developer to help support our various interventions through data platforms and tools, focusing from development to infrastructure management. These efforts will help our partner organizations increase discoverability and searchability of open-content and open-data in key social sectors like education, government finances, judiciary, etc. We strongly encourage applicants from diverse fields, sectors and cultural backgrounds. Those who have an innate sense to solve problems, adapt well to continuously changing environments. Disruptors, Ideators and Torch bearers through chaos.
 
 responsibilities:
   - Build and maintain end-to-end open source platforms to handle large scale data flowing from various sectors and geographies and develop analysis components on top of it.
@@ -37,4 +35,5 @@ good_to_have:
 link:
   angel: https://angel.co/l/2nmDJg
   linkedin: https://www.linkedin.com/jobs/view/1537567571
+  hasjob: https://hasjob.co/civicdatalab.in/o6dsy
 ---
