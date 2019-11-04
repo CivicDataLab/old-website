@@ -4,7 +4,7 @@ position: Back End Engineer
 type: Full Time
 
 brief: |
- We are looking for a Backend & DevOps Developer to help support our various interventions through data platforms and tools, focusing from development to infrastructure management. These efforts will help our partner organizations increase discoverability and searchability of open-content and open-data in key social sectors like education, government finances, judiciary, etc. We strongly encourage applicants from diverse fields, sectors and cultural backgrounds. Those who have an innate sense to solve problems, adapt well to continuously changing environments. Disruptors, Ideators and Torch bearers through chaos.
+ We are looking for a Backend & DevOps Developer to help support our civic tech and data initiatives by helping us build data platforms and tools with a key focus on infrastructure management. These efforts will help our partner organizations engage with open-content and open-data in key social sectors like Public Finance and Judiciary.
 
 responsibilities:
   - Build and maintain end-to-end open source platforms to handle large scale data flowing from various sectors and geographies and develop analysis components on top of it.
