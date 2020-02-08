@@ -20,9 +20,9 @@ title: Team
           </p>
           <p class="card-text">{{ member.content | markdownify }}</p>
           <div class="social-icons text-center">
-            <a href="{{ member.github }}" target="_blank" class="fa fa-github"></a>
-            <a href="{{ member.twitter }}" target="_blank" class="fa fa-twitter"></a>
-            <a href="{{ member.linkedin }}" target="_blank" class="fa fa-linkedin"></a>
+            <a href="{{ member.github }}" target="_blank" class="fa fa-github" aria-label="{{ member.full_name }}'s GitHub Account"></a>
+            <a href="{{ member.twitter }}" target="_blank" class="fa fa-twitter" aria-label="{{ member.full_name }}'s Twitter Account"></a>
+            <a href="{{ member.linkedin }}" target="_blank" class="fa fa-linkedin" aria-label="{{ member.full_name }}'s LinkedIn Account"></a>
           </div>
         </div>
       </div>
