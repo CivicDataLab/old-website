@@ -10,4 +10,4 @@ medium: https://medium.com/@APo_ORV
 email: mailto:apoorv@civicdatalab.in
 ---
 
-Apoorv is the data strategist for the team. A wish he has is to be the person with theleast carbon footprint on this planet. He is currently working on building the JusticeHub, a collaborative legal data platform. 
+Apoorv is the data strategist for the team. A wish he has is to be the person with the least carbon footprint on this planet. He is currently working on building the JusticeHub, a collaborative legal data platform. 
