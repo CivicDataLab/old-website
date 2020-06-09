@@ -4,10 +4,8 @@ full_name: Apoorv Anand
 role: Data Strategist and Partnerships
 photo: /assets/img/AA.png
 github: https://github.com/apoorv74
-twitter: https://twitter.com/apo_orv
-linkedin: https://www.linkedin.com/in/apoorvanand/
 medium: https://medium.com/@APo_ORV
 email: mailto:apoorv@civicdatalab.in
 ---
 
-Apoorv is the data strategist for the team. A wish he has is to be the person with the least carbon footprint on this planet. He is currently working on building the JusticeHub, a collaborative legal data platform. 
+Apoorv is contemplating the void between the online and offline version of himself. When not in deep thoughts, he collaborates with researchers, activists and other normal human beings to make sense of the dystopian universe of [Open] & Public datasets.
