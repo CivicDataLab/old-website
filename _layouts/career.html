@@ -16,13 +16,13 @@ layout: page
       {% if page.link.hasjob %}
         <a class="btn btn-primary btn-md" target="_blank" href="{{ page.link.hasjob }}" role="button">HasJob</a>
       {% endif %}
-      <a class="btn btn-primary btn-md" href="mailto:info@civicdatalab.in" role="button">Email (info@civicdatalab.in)</a>
+      <a class="btn btn-primary btn-md" href="mailto:careers@civicdatalab.in" role="button">Email (careers@civicdatalab.in)</a>
     </p>
   </div>
 </div>
 
 <div class="container">
-  <h2 class="h2">Key Responsibilities</h2>
+  <h2 class="h2">About the work</h2>
   <div class="row">
     <ul>
     {% for resp in page.responsibilities %}
@@ -31,7 +31,7 @@ layout: page
     </ul>
   </div>
 
-  <h2 class="h2">Desired Skills</h2>
+  <h2 class="h2">Our expectations</h2>
   <div class="row">
     <ul>
     {% for skill in page.skills %}
@@ -45,6 +45,24 @@ layout: page
     <ul>
     {% for gth in page.good_to_have %}
       <li>{{ gth | markdownify }}</li>
+    {% endfor %}
+    </ul>
+  </div>
+
+  <h2 class="h2">Our most recent work</h2>
+  <div class="row">
+    <ul>
+    {% for work in page.our_work %}
+      <li>{{ work | markdownify }}</li>
+    {% endfor %}
+    </ul>
+  </div>
+
+  <h2 class="h2">The Application Process</h2>
+  <div class="row">
+    <ul>
+    {% for process in page.process %}
+      <li>{{ process | markdownify }}</li>
     {% endfor %}
     </ul>
   </div>
@@ -130,9 +148,9 @@ layout: page
   </div>
   -->
 
-  <h2 class="h2">Some of our work</h2>
+<!--   <h2 class="h2">Some of our work</h2>
   <div class="card-deck">
-    <!-- <div class="col-sm-6"> -->
+    <div class="col-sm-6">
       <div class="card">
         <img src="https://cdn-images-1.medium.com/max/400/0*wltpfVJvhwxWN6Id" class="card-img-top mb-5" alt="...">
         <div class="card-body">
@@ -141,8 +159,8 @@ layout: page
           <a target="_blank" href="https://medium.com/civicdatalab/tracking-flow-of-public-funds-through-open-data-1ace0e5b6163" class="btn btn-primary">Read More...</a>
         </div>
       </div>
-    <!-- </div> -->
-    <!-- <div class="col-sm-6"> -->
+    </div>
+    <div class="col-sm-6">
       <div class="card">
         <img src="https://cdn-images-1.medium.com/max/400/0*v_3w7qBOCQcBAZ6X" class="card-img-top" alt="...">
         <div class="card-body">
@@ -151,6 +169,7 @@ layout: page
           <a target="_blank" href="https://medium.com/civicdatalab/the-state-of-data-in-the-judicial-sector-9a178a143e" class="btn btn-primary">Read More...</a>
         </div>
       </div>
-    <!-- </div> -->
+    </div>
   </div>
 </div>
+ -->
