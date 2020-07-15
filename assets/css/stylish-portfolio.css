@@ -385,3 +385,14 @@ a:active {
 .text-secondary {
   color: #ecb807 !important;
 }
+.e-team-picture {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 30px auto 0;
+  height: 180px;
+  width: 180px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: block;
+}
